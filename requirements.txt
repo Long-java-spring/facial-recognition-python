@@ -1,0 +1,13 @@
+tensorflow==1.7
+scipy==1.1.0
+scikit-learn
+opencv-python
+h5py
+matplotlib
+Pillow
+requests
+flask
+flask_cors
+keras==2.2.4
+boto3==1.10.28
+numpy==1.16.1

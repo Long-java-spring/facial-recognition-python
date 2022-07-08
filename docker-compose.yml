@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  autoface:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: ['sh','/app/entrypoint.sh']
+    ports:
+      - 5001:5000
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=server.py
+      - PYTHONPATH=./src      
